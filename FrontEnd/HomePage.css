@@ -154,3 +154,22 @@ body
     margin-left: 10px;
 
   }
+/* Mock Up 1*/
+  .mockup1 {
+    float: right;
+    margin-left: 100px;
+    width: 500px;
+    height:auto;
+    padding-right: 100px;
+   
+}
+.profile-logo {
+    position: absolute; /* Positioned relative to the viewport */
+    top: 65px; /* Adjust the distance from the top */
+    right: 110px; /* Adjust the distance from the right */
+    width: 50px; /* Set the width of the logo */
+    height: 50px; /* Set the height of the logo */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide overflow for circular effect */
+    border: 2px solid aquamarine; /* Optional: add a border */
+  }
