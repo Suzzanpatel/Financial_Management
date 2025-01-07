@@ -171,7 +171,6 @@ body {
     height: 100%;
     object-fit: cover; 
   }
-/* Mock Up 1*/
   .mockup1 {
     float: right;
     margin-left: 100px;
@@ -180,22 +179,15 @@ body {
     padding-right: 100px;
    
 }
-/* Header Main*/
-.Header 
-{
-    height:max-content;
-    width: fit-content;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
-h1
-{ 
-  padding-top: 40px;
-  color: #fff;
-  padding-left: 50px;
-  font-size: 50px;
-}
-p
-{
-  color: white;
-  font-size: 25px;
-  padding-left: 50px;
+.Header {
+  height:max-content;
+  width: fit-content;
 }
