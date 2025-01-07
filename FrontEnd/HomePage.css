@@ -191,3 +191,41 @@ body {
   height:max-content;
   width: fit-content;
 }
+
+h1  /*Track Plan Predict*/
+{ 
+  padding-top: 40px;
+  color: #fff;
+  padding-left: 50px;
+  font-size: 50px;
+}
+
+p /* Your all-in-one financial companion */
+{
+  color: white;
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+/* Get Started Button*/
+.get-started {
+  background: linear-gradient(to right, #e0f7fa, #80cbc4);
+  border: none;
+  color: black;
+  padding: 20px 40px;
+  
+  font-size: 20px;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 300px;
+  
+}
+
+.get-started:hover {
+  background: linear-gradient(to right, #80cbc4, #e0f7fa);
+  transform: scale(1.05);
+}
