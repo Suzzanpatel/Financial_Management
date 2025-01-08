@@ -191,41 +191,104 @@ body {
 /*Feature 1*/
 
 /*IMAGE ALIGMENT*/
+.feature1photo
+{
+  
+  padding-left: 10px;
+  height: 25rem;
 
+}
+h1{
+  margin-top: auto;
+  text-align: center;
+}
 /*RECTANGLE ALIGMENT*/
-
+.rectanglef1 {
+  width: 65rem; 
+  height: 10rem; 
+  background-color: aquamarine; 
+  position: absolute; 
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  border-radius: 20rem;
+}
 /*PARAGRAPH ALIGMENT*/
 
-
-
+p{
+  text-align: center;
+  padding-top: 18px;
+  font-size: 28px;
+}
 
 /*Feature 2  */
 
 /*IMAGE ALIGMENT*/
+.feature2photo
+{
+  float: right;
+  padding-right: 12px;
+  height: 25rem;
+}
 
 /*RECTANGLE ALIGMENT*/
+.rectanglef2 {
 
+    margin-top: 25rem;  
+    width: 65rem; 
+    height: 10rem; 
+    background-color: aquamarine; 
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    border-radius: 20rem;
+}
 /*PARAGRAPH ALIGMENT*/
-
 
 
 
 /*Feature 3*/
 
 /*IMAGE ALIGMENT*/
+.Feature3photo
+{
+  padding-top: 12rem;
+  padding-left: 10px;
+  height: 25rem;
 
+}
 /*RECTANGLE ALIGMENT*/
-
-/*PARAGRAPH ALIGMENT*/
-
-
-
+.rectanglef3 {
+  width: 65rem; 
+  height: 10rem; 
+  background-color: aquamarine; 
+  position: absolute; 
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  border-radius: 20rem;
+}
 
 /*Feature 4 */
 
 /*IMAGE ALIGMENT*/
-
+.Feature4photo
+{
+  float: right;
+  padding-right: 12px;
+  height: 25rem;
+}
 /*RECTANGLE ALIGMENT*/
+.rectanglef4 {
+  width: 65rem; 
+  height: 10rem; 
+  background-color: aquamarine; 
+  position: absolute; 
+  right: 0; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  border-radius: 20rem;
+}
 
-/*PARAGRAPH ALIGMENT*/
 
