@@ -154,7 +154,7 @@ body {
 
   }
 
-  /* Profile Logo*/
+/* Profile Logo*/
 .profile-logo {
     position: absolute; 
     top: 65px; 
@@ -183,8 +183,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  overflow-x: hidden; /* Disable horizontal scrolling */
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; 
+  overflow-y: auto; 
 }
 
  
@@ -193,13 +193,11 @@ body {
 /*IMAGE ALIGMENT*/
 .feature1photo
 {
-  
   padding-left: 10px;
   height: 25rem;
-
 }
+
 h1{
-  margin-top: auto;
   text-align: center;
 }
 /*RECTANGLE ALIGMENT*/
