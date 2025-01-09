@@ -6,7 +6,10 @@ body, html {
     height: 100%;
     overflow: hidden;
     background-color: black; 
+    font-family: 'Times New Roman', Times, serif;
+    
 }
+html,body{overflow-y: scroll; }
 
 /*SEMI CIRCLE*/
 .semicircle {
@@ -24,7 +27,6 @@ body, html {
 }
 
 /*LOGO*/
-
 .logo img {
     height: 100px; 
 }
@@ -58,7 +60,7 @@ body, html {
 }
 
 .nav-links ul li a:hover {
-    color: #00cc99; 
+    color: aquamarine; 
 }
 
 .nav-links ul li:not(:last-child)::after {
@@ -89,8 +91,6 @@ h1
     }
 }
 
-
-
 /*Paragraph 1 with Animation*/
 p
 {
@@ -117,10 +117,11 @@ p
       transform: translateX(0);
     }
   }
+ 
   /*Paragraph 2 with animation*/
   p2
   {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     padding-left: 20px;
     margin-left: 20px;
@@ -143,6 +144,59 @@ p
       transform: translateY(0);
     }
   }
+
+  /*Get Started Button*/
+  .GetStarted {
+    background: linear-gradient(to right, #e0f7fa, #80cbc4);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px green(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 25px;
+    padding-left: 20px;
+    opacity: 0; 
+    transform: translateY(20px); 
+    animation: buttonAppear 0.6s ease forwards;
+    animation-delay: 0.3s; 
+}
+
+.GetStarted:hover {
+    background: linear-gradient(to right, #80cbc4, #e0f7fa);
+    transform: scale(1.05);
+}
+
+@keyframes buttonAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+  .GetStarted:hover {
+    background: linear-gradient(to right, #80cbc4, #e0f7fa);
+    transform: scale(1.05);
+  }
+
+/*Features Heading*/
+h2{
+  
+  padding-top: 100px;
+  margin-top: 300px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
 
 /*Feature box*/
   .features-container {
