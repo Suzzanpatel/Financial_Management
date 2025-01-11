@@ -11,6 +11,8 @@ body, html {
 }
 html,body{overflow-y: scroll; }
 
+
+
 /*SEMI CIRCLE*/
 .semicircle {
     position: absolute;
@@ -24,7 +26,32 @@ html,body{overflow-y: scroll; }
     border-bottom-left-radius: 500px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    animation: fadeIn 1.2s ease-in forwards;
 }
+
+.mockup1
+{
+  position: relative;
+  width: 5px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  animation: fadeIn 1.2s ease-in forwards;
+}
+
+@keyframes fadeIn 
+{
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
 
 /*LOGO*/
 .logo img {
@@ -56,7 +83,7 @@ html,body{overflow-y: scroll; }
 .nav-links ul li a {
     text-decoration: none;
     color: white; 
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .nav-links ul li a:hover {
@@ -123,8 +150,9 @@ p
   {
     font-size: 25px;
     color: white;
-    padding-left: 20px;
-    margin-left: 20px;
+    padding: 0 40px; /* Padding to give some space around */
+    display: block; /* Ensures proper block formatting for p2 */
+    width: 45%; /* Set */
   }
 
   .p2animation {
@@ -158,7 +186,7 @@ p
     box-shadow: 0 4px 6px green(0, 0, 0, 0.3);
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-left: 25px;
+    margin-left: 40px;
     padding-left: 20px;
     margin-top: 20px;
     opacity: 0; 
