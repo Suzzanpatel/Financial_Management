@@ -11,15 +11,13 @@ body, html {
 }
 html,body{overflow-y: scroll; }
 
-
-
-/*SEMI CIRCLE
+/*SEMI CIRCLE*/
 .semicircle {
-    position: relative;
+    position: absolute;
     top: 60%;
     right: 0;
     transform: translateY(-50%);
-    width: 100px; 
+    width: 300px; 
     height: 500px;
     background-color: aquamarine; 
     border-top-left-radius: 500px;
@@ -27,25 +25,21 @@ html,body{overflow-y: scroll; }
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     animation: fadeIn 1.2s ease-in forwards;
-    padding-left: 80rem;
+}
 
-}*/
-
-/*Mock Up 1
 .mockup1
 {
   position: relative;
-  width: 5px;
+  width: 1px;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
   animation: fadeIn 1.2s ease-in forwards;
-}*/
+}
 
-@keyframes fadeIn 
-{
+@keyframes fadeIn {
   from {
       opacity: 0;
   }
@@ -53,8 +47,6 @@ html,body{overflow-y: scroll; }
       opacity: 1;
   }
 }
-
-
 
 /*LOGO*/
 .logo img {
@@ -222,8 +214,8 @@ p
 /*Features Heading*/
 h2{
   
-  padding-top: 40px;
-  margin-top: 40px;
+  padding-top: 100px;
+  margin-top: 300px;
   text-align: center;
   color: white;
   font-size: 30px;
@@ -262,18 +254,80 @@ h2{
     margin-bottom: 15px;
 }
 
-.feature-box {
-  transform: scale(1.1); 
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+/*How to get your money in shape*/
+
+/*h4{
+  color: white;
+  font-size: 35px;
+  text-align: center;
 }
-@keyframes slideUp {
-  from {
-      opacity: 0;
-      transform: translateY(50px);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0);
-  }
+p4
+{
+  font-size: 20px;
+   text-align: left;
+   color: white;
+   padding-left: 20px;
+   margin-left: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.content h4 span {
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.step h4 {
+  color: aquamarine;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.step h4 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.step ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.step ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+  color: white;
+  font-size: 20px;
+}
+
+.step ul li:before {
+  content: "✔";
+  color: aquamarine;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+}
+
+.image-container img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+  */
